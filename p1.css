@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("");
+
+background-position: center;
+
+background-size: cover;
+position: relative;
+background-repeat: no-repeat;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: red;
+}
+.p1{
+	color: green;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: large;
+	
+	
+
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	color: #ff00ff;
+}
+.nav-links ul li a{
+color: #f453;
+font-size: 13px;
+text-align: center;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.sign{
+	text-align: +25%;
+
+}
+.slides{
+	display: none;
+	align-content: right;
+	float: right;
+	
+}
+
+h2{
+	color: #ff0000;
+	font-size: 300%;
+	text-align: center;
+	
+	font-family:serif;
+}
+.input {
+  display: flex;
+  width: 50%;
+  margin-bottom: 15px;
+   width: 50%;
+  padding: 10px;
+  outline: none;
+  text-align: center;
+  
+}
+.container i{
+	position: absolute;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 40px;
+  text-align: center;
+}
+
+.input:focus {
+  border: 2px solid dodgerblue;
+
+}
+
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  
+
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+h1{
+	color: #8FE13E;
+	font-size: 300%;
+	text-align: center;
+	align-content: center;
+	font-family: sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 50%;
+}
